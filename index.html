@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Paropeba</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/1724px-Apple_logo_grey.svg.png" alt="Descrição da imagem" width="500" height="600">
+        <nav>
+            <div class="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png">
+            <ul class="nav_link">
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+            <body>
+                <form class="search-container">
+                  <input type="text" id="search-bar" placeholder="Busca">
+                </form>
+              </body>
+        </nav>
+        
+        <a class="cta" href="#"><button>Login</button></a>
+    </header>
+    <div class="container">
+        <div class="box box-1" style="--img: url(https://yt3.googleusercontent.com/e6Pf3q-8tmNEElN3vczeseox1K15d8MXk9jqzx2P9Qa7TjIBk0MFw84BUEY4yLI-ctMrWH8aPww=s900-c-k-c0x00ffffff-no-rj);" data-text="DJONGA"></div>
+        <div class="box box-2" style="--img: url(https://lastfm.freetls.fastly.net/i/u/ar0/cb627d9719e3378caba0b9cb2a450268.jpg);" data-text="LEALL"></div>
+        <div class="box box-3" style="--img: url(https://i.scdn.co/image/ab6761610000e5eb5f883342755436168c05d87a);" data-text="SANT"></div>
+        <div class="box box-4" style="--img: url(https://i.scdn.co/image/ab67616d0000b273885234c6aa1366372948b73c);" data-text="FBC"></div>
+        <div class="box box-5" style="--img: url(https://images.genius.com/edbe975e9ec48f1502ab16abe8d92239.1000x1000x1.jpg);" data-text="SAIN"></div>
+    </div>
+    
+    <script>
+        document.querySelector('input[type="text"]').addEventListener('keypress', function(event) {
+            if (event.key === "Enter") {
+                event.preventDefault();
+                this.form.submit(); 
+            }
+        });
+    </script>
+</body>
+</html>
